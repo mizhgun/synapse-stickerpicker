@@ -1,5 +1,5 @@
 Matrix Synapse StickerPicker
-===========================
+============================
 
 Pluggable module for Matrix (matrix.org) Synapse server that automatically enables sticker picker for
 Element IM on self-hosted instances.

@@ -11,7 +11,8 @@ setup(
     description='Pluggable module for Matrix (matrix.org) Synapse server that automatically enables sticker picker for '
                 'Element IM on self-hosted instances.',
     long_description=open('README.rst').read(),
-    keywords=['scrapy'],
+    long_description_content_type='text/x-rst',
+    keywords=['matrix', 'synapse', 'element-im'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Plugins',
