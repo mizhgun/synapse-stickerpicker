@@ -22,7 +22,7 @@ class AppendStickerPickerData:
         }
     }
 
-    def __init__(self, *, config=None, api: 'ModuleApi' = None):
+    def __init__(self, config=None, api: 'ModuleApi' = None):
         self._store = api.http_client.hs.datastores.main
         self.stickerpicker_data['stickerpicker']['content']['url'] = config['stickerpicker_url']
         api.register_account_validity_callbacks(on_user_registration=self.on_user_registration)
